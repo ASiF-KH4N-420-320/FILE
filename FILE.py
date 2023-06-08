@@ -10,6 +10,6 @@ if trt=="32bit":
 
 #print('Sorry 32 Bit Not Supported...')
 
-elif dump=="64bit":
+if dump=="64bit":
 
 __import__("dump")
